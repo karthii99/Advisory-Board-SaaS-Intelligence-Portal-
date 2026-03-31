@@ -1,0 +1,39 @@
+{
+  "name": "saas-intelligence-backend",
+  "version": "1.0.0",
+  "description": "Production-grade SaaS Intelligence Decision-Support System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server-working.js",
+    "dev": "nodemon src/server-working.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "saas",
+    "intelligence",
+    "decision-support",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.14.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "openai": "^4.104.0",
+    "pg": "^8.20.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
